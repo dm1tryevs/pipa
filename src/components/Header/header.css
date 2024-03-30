@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+}
+.header__container {
+  padding: 12px 10px 0px 10px;
+  max-width: 1376px;
+  margin: 0 auto;
+}
+.header__block {
+  display: flex;
+  gap: 207px;
+  align-items: flex-start;
+}
+.header__logo {
+  margin-right: auto;
+  width: 70px;
+  max-width: 100%;
+}
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+.header__nav-items {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+.header__phone {
+  text-decoration: none;
+  color: black;
+  align-self: flex-start;
+}

@@ -1,0 +1,51 @@
+.footer {
+
+    // .footer__container
+
+    &__container {
+        max-width: 1376px;
+        margin: 0 auto;
+        padding: 120px 10px 10px 10px;
+    }
+
+    // .footer__aveji
+    &__block{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__aveji {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    // .footer__policy
+
+    &__policy {
+        font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+    }
+
+    // .footer__social
+
+    &__social {
+        display: flex;
+        gap: 40px;
+    }
+
+    // .footer__vk
+
+    &__vk {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    // .footer__tg
+
+    &__tg {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}

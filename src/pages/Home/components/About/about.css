@@ -1,0 +1,116 @@
+.about__container {
+  max-width: 1376px;
+  margin: 0 auto;
+  padding: 40px 10px 0px 10px;
+}
+.about__title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.title__text {
+  font-family: "Helvetica", "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  max-width: 794px;
+  text-shadow: 1px 4px 3px rgba(128, 128, 128, 0.116);
+}
+.title__order {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.furniture {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.furniture__left {
+  display: flex;
+  flex-direction: column;
+}
+.furniture__text {
+  display: block;
+  margin-bottom: auto;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 445px;
+}
+.furniture__img {
+  align-self: flex-end;
+  margin-right: auto;
+}
+.info {
+  padding-top: 120px;
+  display: flex;
+  gap: 135px;
+}
+.info__title {
+  font-family: "Helvetice", "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  max-width: 562px;
+}
+.info__text {
+  padding: 0;
+  font-size: 16px;
+  max-width: 446px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 44px;
+}
+.info__list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.info__items {
+  font-size: 16px;
+}
+.info__items span {
+  font-size: 36px;
+}
+
+.how {
+  padding-top: 140px;
+}
+.how__block {
+  display: flex;
+  justify-content: space-between;
+}
+.how__title {
+  font-family: "Helvetica", "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+.right-how {
+  max-width: 678px;
+}
+.right-how__title {
+  font-size: 16px;
+  max-width: 325px;
+  margin-bottom: 44px;
+}
+.right-how__text {
+  display: flex;
+  padding: 24px 0 24px 0;
+  justify-content: space-between;
+}
+.right-how__main {
+  font-size: 36px;
+  font-family: "Helvetica", "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+}
+.right-how__discription {
+  font-size: 16px;
+  max-width: 329px;
+  line-height: 150%;
+}
+.right-how__line {
+  height: 1px;
+  background-color: black;
+}
