@@ -11,8 +11,6 @@ a{
 
     &__container {
         padding: 12px 10px 0px 10px;
-        max-width: 1376px;
-        margin: 0 auto;
     }
 
     // .header__block
@@ -21,6 +19,9 @@ a{
         display: flex;
         gap: 207px;
         align-items: flex-start;
+         @media (max-width:800px) {
+            align-items: center;
+       }
     }
 
     // .header__logo
@@ -29,6 +30,10 @@ a{
         margin-right: auto;
         width: 70px;
         max-width: 100%;
+        @media (max-width:800px) {
+            height: 41px;
+            width: 39px;
+       }
     }
 
     // .header__nav
@@ -38,6 +43,10 @@ a{
         flex-direction: column;
         gap: 8px;
         margin: 0;
+        
+        @media (max-width:800px) {
+            display: none;
+        }
     }
 
     // .header__nav-items
@@ -54,6 +63,14 @@ a{
         text-decoration: none;
         color: black;
         align-self: flex-start;
+        @media (max-width:800px) {
+            display: none;
+        }
+    }
+    &__burger{
+        @media (min-width:800px) {
+            display: none;
+        }
     }
 }
 

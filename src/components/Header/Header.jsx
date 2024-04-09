@@ -1,5 +1,6 @@
 import logo from './images/logo.svg'
 import './header.css'
+import Bruger from './Burger.jsx';
 const Header = () => {
     return ( 
         <>
@@ -14,6 +15,7 @@ const Header = () => {
                         <li className="header__nav-items"><a target='_blank' href="https://youtu.be/dQw4w9WgXcQ">Отзывы</a> </li>
                     </ul>
                     <a href="tel:+79999999999" className="header__phone">+7 999 999 99 99</a>
+                    <div className="header__burger"><Bruger></Bruger></div>
                 </div> 
             </div>
         </div>               

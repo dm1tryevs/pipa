@@ -4,7 +4,7 @@ const Reviews = () => {
     return ( <>
         <div className="reviews">
             <div className="reviews__container">
-                <div className="reviews__title"></div>
+                <div className="reviews__title">Отзывы</div>
                     <div className="reviews__block">
                         <div className="reviews__body">
                             <img src={icon} alt="" className="reviews__image" />
